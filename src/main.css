@@ -29,7 +29,7 @@
 }
 
 hr {
-  background: url(https://www.worldanvil.com/uploads/images/15c1f7b902188d0b9c0a821fe5b865bf.svg) no-repeat top center;
+  background: url(https://www.worldanvil.com/uploads/images/9e3d193ca58897686de874689f7b5e1e.png) no-repeat top center;
   background-size: contain;
   display: block;
   height: 18px;
@@ -49,13 +49,13 @@ hr:before, hr:after {
 hr:before {
   left: 0;
   right: 50%;
-  margin-right: 10px;
+  margin-right:15px;
 }
 
 hr:after {
   right: 0;
   left: 50%;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 /* HOME PAGE */
