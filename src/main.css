@@ -38,7 +38,7 @@
   background-size: cover;
 }
 
-hr {
+.user-css hr {
   background: url(https://www.worldanvil.com/uploads/images/9e3d193ca58897686de874689f7b5e1e.png) no-repeat top center;
   background-size: contain;
   display: block;
@@ -47,7 +47,7 @@ hr {
   position: relative;
 }
 
-hr:before, hr:after {
+.user-css hr:before, .user-css hr:after {
   content: url(https://upload.wikimedia.org/wikipedia/commons/8/89/HD_transparent_picture.png);
   display: block;
   position: absolute;
@@ -56,13 +56,13 @@ hr:before, hr:after {
   top: 8px;
 }
 
-hr:before {
+.user-css hr:before {
   left: 0;
   right: 50%;
   margin-right: 15px;
 }
 
-hr:after {
+.user-css hr:after {
   right: 0;
   left: 50%;
   margin-left: 15px;
