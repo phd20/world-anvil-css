@@ -38,6 +38,18 @@
   background-size: cover;
 }
 
+.user-css .article-panel .heading, .user-css-extended .article-panel .heading {
+  color: var(--secondary-color);
+}
+
+.user-css .article-panel, .user-css-extended .article-panel {
+  border-radius: 10px;
+}
+
+.user-css .article-panel .cover-article, .user-css-extended .article-panel .cover-article {
+  border-radius: 10px 10px 0 0;
+}
+
 .user-css hr {
   background: url(https://www.worldanvil.com/uploads/images/9e3d193ca58897686de874689f7b5e1e.png) no-repeat top center;
   background-size: contain;
@@ -85,13 +97,16 @@
 /*#region HOME PAGE */
 
 .user-css .world-title {
-  color: var(--main-color);
-  text-shadow: 2px 2px var(--contrast-bg-color);
+  color: var(--main-bg-color);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .user-css .world-subtitle {
   color: var(--main-color);
   text-shadow: 1px 1px var(--secondary-color);
+  -webkit-text-stroke-width: 0;
+  -webkit-text-stroke-color: currentcolor;
 }
 
 .user-css h3 {
@@ -115,8 +130,61 @@
 
 /*#endregion TOC */
 
+/*#region Timelines*/
+
+.user-css .world-content .world-timelines .timelines-list-header {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.user-css .world-content .world-timelines .category-list h5 {
+  color: var(--secondary-color);
+}
+
+/*#endregion Timelines*/
+
+/*#region Maps*/
+
+.user-css .world-content .world-maps .maps-list-header {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/*#endregion Maps*/
+
+/*#region Featured Articles*/
+
+.user-css .world-content .world-featured-articles h2 {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/*#endregion Featured Articles*/
+
 .user-css .user-row {
   font-family: Lora;
+}
+
+.user-css .discussion-boards-world-link {
+  display: none;
+}
+
+.user-css .world-content .followers-counter h4 {
+  color: var(--secondary-color);
+}
+
+.user-css .world-content .followers-counter h4 a {
+  color: var(--link-color);
+}
+
+.user-css .world-meta-categories-link h5 {
+  color: var(--secondary-color);
+}
+
+.user-css a.world-share-rss-feed-link {
+  background: var(--main-color);
+  border-color: var(--secondary-color);
+  color: #fff !important;
 }
 
 /*#endregion HOME PAGE */
