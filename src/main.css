@@ -1,0 +1,91 @@
+/* IMPORT FONTS */
+
+@font-face {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v26/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1x4gaVQUwaEQbjA.woff);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lora/v17/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkqt8ndeYxZ0.woff);
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* GLOBAL */
+
+.user-css-presentation {
+  background-image: url(https://www.worldanvil.com/uploads/images/3c803cc7b9357dddd281f25ddc4afa5f.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+hr {
+  background: url(https://www.worldanvil.com/uploads/images/15c1f7b902188d0b9c0a821fe5b865bf.svg) no-repeat top center;
+  background-size: contain;
+  display: block;
+  height: 18px;
+  border: 0;
+  position: relative;
+}
+
+hr:before, hr:after {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/8/89/HD_transparent_picture.png);
+  display: block;
+  position: absolute;
+  background: #333745;
+  height: 2px;
+  top: 8px;
+}
+
+hr:before {
+  left: 0;
+  right: 50%;
+  margin-right: 10px;
+}
+
+hr:after {
+  right: 0;
+  left: 50%;
+  margin-left: 10px;
+}
+
+/* HOME PAGE */
+
+.user-css .world-title, h3 {
+  color: #333745;
+}
+
+.user-css h3.world-currentDate {
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: Open Sans;
+}
+
+.user-css .world-authors {
+  display: none;
+}
+
+.user-css .world-authors p {
+  font-size: 10px;
+}
+
+.user-css .user-row {
+  font-family: Lora;
+}
+
+/* ARTICLES */
+
+.user-css.page, .user-css-extended .page {
+  background: #FAF9F6;
+  box-shadow: 0 4px 8px 0 rgba(123, 125, 124, 0.8), 0 6px 20px 0 rgba(123, 125, 124, 0.8);
+}
