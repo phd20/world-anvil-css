@@ -187,6 +187,12 @@
   color: #fff !important;
 }
 
+.user-css .copyright-attribution {
+  color: #3a3b3c;
+  font-family: Lora;
+  padding-bottom: 10px
+}
+
 /*#endregion HOME PAGE */
 
 /*#region ARTICLES */
