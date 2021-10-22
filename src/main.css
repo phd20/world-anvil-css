@@ -86,17 +86,16 @@
 
 .user-css .world-title {
   color: var(--main-color);
+  text-shadow: 2px 2px var(--contrast-bg-color);
+}
+
+.user-css .world-subtitle {
+  color: var(--main-color);
+  text-shadow: 1px 1px var(--secondary-color);
 }
 
 .user-css h3 {
   color: var(--secondary-color);
-}
-
-.user-css h3.world-currentDate {
-  font-style: normal;
-  font-size: 18px;
-  margin-bottom: 20px;
-  font-family: Open Sans;
 }
 
 .user-css .world-authors {
