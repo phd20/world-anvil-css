@@ -84,7 +84,11 @@
 
 /*#region HOME PAGE */
 
-.user-css .world-title, h3 {
+.user-css .world-title {
+  color: var(--main-color);
+}
+
+.user-css h3 {
   color: var(--secondary-color);
 }
 
