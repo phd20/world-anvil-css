@@ -1,5 +1,6 @@
 * {
   --main-color: #DC2638;
+  --main-color-dark: #c62232;
   --secondary-color: #333745;
   --link-color: #008aca;
   --main-bg-color: #e9ecf5;
@@ -90,6 +91,14 @@
 
 .user-css .history-link {
   color: var(--link-color);
+}
+
+.user-css .map-box {
+  padding: 10px;
+  background-color: #f9f9f7;
+  border-radius: 10px;
+  border: 1px #d4d2c5 solid;
+  margin-bottom: 15px;
 }
 
 /*#endregion GLOBAL */
@@ -201,4 +210,41 @@
   box-shadow: 0 4px 8px 0 rgba(123, 125, 124, 0.8), 0 6px 20px 0 rgba(123, 125, 124, 0.8);
 }
 
+.user-css div .backtoworld a {
+  position: absolute;
+  padding: 5px 15px;
+  background: var(--main-color);
+  left: -10px;
+  color: #fff;
+  box-shadow: 3px 2px 1px var(--secondary-color);
+}
+
+.user-css div .backtoworld a:hover {
+  background-color: var(--main-color-dark);
+}
+
+.user-css .article-title h1 {
+  color: var(--secondary-color);
+}
+
+.user-css h2, h3, h4, h5 {
+  color: var(--secondary-color);
+}
+
+.user-css, .user-css p, .user-css-extended, .user-css-extended p {
+  font-family: Lora;
+}
+
+.user-css, .user-css .article-content a, .user-css-extended, .user-css-extended .article-content a {
+  color: var(--link-color);
+}
+
 /*#endregion ARTICLES */
+
+/*#region CATEGORIES */
+
+.user-css .category-header h1 {
+  color: var(--secondary-color);
+}
+
+/*#endregion CATEGORIES */
