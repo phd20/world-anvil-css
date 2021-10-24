@@ -514,13 +514,13 @@
 .user-css-presentation .tooltipster-base .tooltipster-arrow .tooltipster-arrow-border {}
 
 .user-css-presentation .tooltipster-base .tooltipster-box .tooltipster-content {
-  background: var(--main-bg-color);
+  background: var(--secondary-color);
   border-color: var(--secondary-contrast-color);
-  color: var(--secondary-color);
+  color: var(--main-bg-color);
 }
 
 .user-css-presentation .tooltipster-base .tooltipster-box .tooltipster-content h1, h2, h3, h4, h5 {
-  color: var(--secondary-color);
+  color: var(--main-bg-color);
 }
 
 .user-css-presentation .tooltipster-base .tooltipster-box .tooltipster-content a {
