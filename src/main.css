@@ -114,17 +114,29 @@
 
 /*#region HOME PAGE */
 
+.user-css .cover {
+  border-bottom: solid;
+  border-width: 0.5rem;
+  border-color: var(--main-bg-color);
+}
+
 .user-css .world-title {
+  display: none;
   color: var(--main-bg-color);
   -webkit-text-stroke-width: 1.2px;
   -webkit-text-stroke-color: black;
 }
 
 .user-css .world-subtitle {
+  display: none;
   color: var(--main-color);
   text-shadow: 1px 1px var(--secondary-color);
   -webkit-text-stroke-width: 0;
   -webkit-text-stroke-color: currentcolor;
+}
+
+.user-css .world-currentDate {
+  display: none;
 }
 
 .user-css h3 {
