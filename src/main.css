@@ -7,6 +7,10 @@
   --contrast-bg-color: #e7e7e7;
 }
 
+.col-head-center {
+  text-align: center;
+}
+
 /*#region IMPORT FONTS */
 
 @font-face {
@@ -250,6 +254,11 @@
   font-size: 6rem;
 }
 
+.user-css .article-subheading {
+  text-align: center;
+  color: var(--secondary-color);
+}
+
 .user-css h2, h3, h4, h5 {
   color: var(--secondary-color);
 }
@@ -291,7 +300,11 @@
   color: var(--main-bg-color);
 }
 
-.user-css-presentation .tooltipster-base .tooltipster-box .tooltipster-content h1, h2, h3, h4, h5 {
+.user-css-presentation .tooltipster-base .tooltipster-box .tooltipster-content h1, h2, h3 {
+  color: var(--secondary-color);
+}
+
+.user-css-presentation .tooltipster-base .tooltipster-box .tooltipster-content h4, h5 {
   color: var(--main-color);
 }
 
